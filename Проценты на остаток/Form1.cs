@@ -38,7 +38,6 @@ namespace Проценты_на_остаток
         {
             textBox2.Text = (numericUpDown1.Value * numericUpDown2.Value / 100).ToString("F"); // Сначала вычисляется сколько набежит % за год
             textBox1.Text = (Convert.ToDouble(textBox2.Text) / 12).ToString("F"); // Затем делится на количество месяцев для вычисления ежемесячной выплаты
-
         }
 
         // 3. Валюты
