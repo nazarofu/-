@@ -23,6 +23,8 @@ namespace Проценты_на_остаток
         public Form1()
         {
             InitializeComponent();
+            this.Text = "";
+
         }
 
 
@@ -98,6 +100,7 @@ namespace Проценты_на_остаток
 
             if (comboBox1.SelectedIndex == 0)
             {
+                this.Text = "Проценты по вкладу";
                 label5.Text = "Рассчитайте сколько вам выплатят\nпо банковскому вкладу";
                 label1.Text = "сумма";
                 label2.Text = "% по вкладу";
@@ -121,6 +124,7 @@ namespace Проценты_на_остаток
 
             if (comboBox1.SelectedIndex == 1)
             {
+                this.Text = "Deposit interest";
                 label5.Text = "Calculate how much you will be paid\non a bank's deposit";
                 label1.Text = "amount";
                 label2.Text = "% deposit interest";
@@ -144,6 +148,7 @@ namespace Проценты_на_остаток
 
             if (comboBox1.SelectedIndex == 2)
             {
+                this.Text = "% sur le dépôt";
                 label5.Text = "Calculez combien vous serez payé sur\nun dépôt bancaire";
                 label1.Text = "montant";
                 label2.Text = "% sur le dépôt";
@@ -167,6 +172,7 @@ namespace Проценты_на_остаток
 
             if (comboBox1.SelectedIndex == 3)
             {
+                this.Text = "% за вкладом";
                 label5.Text = "Розрахуйте скільки вам виплатять\nза банківським вкладом";
                 label1.Text = "сума";
                 label2.Text = "% за вкладом";
@@ -190,6 +196,7 @@ namespace Проценты_на_остаток
 
             if (comboBox1.SelectedIndex == 4)
             {
+                this.Text = "% mevduat";
                 label5.Text = "Banka mevduatında ne kadar ödeme\nyapacağınızı hesaplayın";
                 label1.Text = "miktarı";
                 label2.Text = "% mevduat";
@@ -199,7 +206,7 @@ namespace Проценты_на_остаток
                 label7.Text = "Yazar: Sergey Nazarov";
                 label8.Text = "Language / Dil:";
                 label8.Location = new System.Drawing.Point(135, 349); // исправление положения текстовой надписи
-                button1.Text = "Hesaplamak";
+                button1.Text = "Hesapla";
                 groupBox1.Text = "Döviz";
                 radioButton1.Text = "Ruble";
                 radioButton2.Text = "Dolar";
